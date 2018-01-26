@@ -16,16 +16,11 @@ function quadraticEquation(a,b,c){
     }
 
     else if (desc === 0){
-        x1 = -b/(2*a);
-        return "x = " + x1;
+        return "x = " + (-b/(2*a));
     }
 
     else if (desc < 0){
         return "Error! <br>Discriminant < 0";
-    }
-
-    else{
-        return "Some Error";
     }
     
     return "<b>" + "x1 = " + "</b>" + x1 + "<br>" + "<b>" + " x2 = " + "</b>" + x2;
@@ -33,6 +28,5 @@ function quadraticEquation(a,b,c){
 
 
 function discriminant(a,b,c){
-    let result = Math.pow(b,2)-4*a*c;
-    return result;
+    return Math.pow(b,2)-4*a*c;
 }
