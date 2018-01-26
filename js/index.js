@@ -1,6 +1,6 @@
-const a = parseInt(prompt('Enter A'));
-const b = parseInt(prompt('Enter B'));
-const c = parseInt(prompt('Enter C'));
+const a = parseFloat(prompt('Enter A'));
+const b = parseFloat(prompt('Enter B'));
+const c = parseFloat(prompt('Enter C'));
 
 document.write(quadraticEquation(a,b,c));
 
